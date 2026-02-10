@@ -1,0 +1,9 @@
+python -m pip install --upgrade pip wheel setuptools
+pip install numpy
+pip install pandas --only-binary :all:
+pip install scikit-learn
+pip install tensorflow
+pip install google-generativeai
+pip install matplotlib
+pip install seaborn
+python -m pip install python-dotenv

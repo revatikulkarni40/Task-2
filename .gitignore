@@ -1,0 +1,45 @@
+# Environment variables - NEVER commit this!
+.env
+.env.local
+.env.production
+
+# API Keys
+*.key
+secrets.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (can be large)
+*.h5
+*.pkl
+*.joblib
+saved_models/
+
+# Datasets (optional - uncomment if you don't want to commit datasets)
+# *.csv
+# data/
